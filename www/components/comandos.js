@@ -3,7 +3,8 @@
         cordova.plugins.barcodeScanner.scan(
       function (result) {
          if(result.text == '280720550'){
-            document.querySelector('#imagem').src = "./img/Imagem1.jpg";
+            document.querySelector('#imagem').src = "
+                 Imagem1.jpg";
             
             document.querySelector('#dados'). innerHTML = " <h1> Nome do produto:</h1><h3>IPad Mini WI-FI 64GB - Cinza Espacial </h3><h2> Valor: R$ 3.499,00<br> Descrição:</h2> Processador A12 Bionic com arquitetura de 64 bits Neural Engine Coprocessador M12 Integrado<br> Sistema operacional IOS<br> Tamanho de tela 7.9<br> Tecnologia WI-FI<br> Resolução da câmera - Câmera traseira: 8MP - Câmera frontal: 7MP <br> GPS:Sim<br> Grava vídeos:Sim<br> Câmera traseira:Sim<br> Cãmera frontal:Sim<br> Memória Flash: 64GB<br> Funciona como celular:Não";
          }
