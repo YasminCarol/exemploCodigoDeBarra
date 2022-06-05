@@ -9,7 +9,7 @@
              
          }
          else if(result.text == '989895555'){
-            document.querySelector('#imagem') .src = "";
+            document.querySelector('#imagem') .src = "img/Imagem2.jpg";
             documet.querySelector('#dados1') .innerHTML = " <h2> Nome do Produto: Samsung Galaxy J8 Dual Chip 4g 64gb Tela 6</h2><h2>Valor:R$ 1.888,00 </h2><h2> Velocidade do Processador: 1.8GHz<h2>Tipo de Processador: OctaCore</h2><h2>Tamanho (Tela Principal): 153.6mm (6.0)<br> Sistema operacional IOS<br> Resolução (Tela Principal):1480 x 720 (HD+)<br> CâmeraResolução -Câmera Traseira: 16.0 MP + 5.0 MP<br>Memória RAM(GB): 4 GB<br> Memória Total Interna (GB) -64 GB<br> Memória Disponível (GB)  -50.6 GB</h2>";
          }
          else if(result.text == '85236987'){
